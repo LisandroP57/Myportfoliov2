@@ -5,7 +5,7 @@ const PROJECTS = [
   {
     title: "Cuídate! E-commerce FullStack",
     description:
-      "Primera app full-stack: registro, login, carrito, productos, categorías, búsqueda y panel de administración, con Sequelize/SQL y una API propia sobre Node.js.",
+      "Primera app full-stack: registro, login, carrito, productos, categorías, búsqueda y panel de administración, con Sequelize/SQL y una API propia sobre Node.js. Realizada en Digital House - Fundacion Formar.",
     stack: ["JavaScript", "Node.js", "Sequelize", "SQL"],
     status: "in-progress",
     repo: "https://github.com/LisandroP57/c19-Grupo-3-Cuidate",
@@ -22,9 +22,10 @@ const PROJECTS = [
     title: "FinanzApp",
     description:
       "Aplicación web para registrar ingresos y gastos y ver cómo van las cuentas del mes, con gastos por categoría y evolución a lo largo del mes",
-    stack: ["React", "API REST"],
+    stack: ["React 18", "Vite", "Recharts", "CSS con variables"],
     status: "live",
-    repo: "https://finanzapplp.netlify.app",
+    demo: "https://finanzapplp.netlify.app",
+    repo: "https://github.com/LisandroP57/FinanzApp",
   },
   {
     title: "Plataforma de APIs E-commerce",
@@ -37,7 +38,7 @@ const PROJECTS = [
   {
     title: "CalculApp",
     description:
-      "Calculadora interactiva construida con React, con separación clara de componentes y hooks modernos.",
+      "Calculadora basica interactiva construida con React, con separación clara de componentes y hooks modernos.",
     stack: ["React", "Hooks"],
     status: "live",
     demo: "https://palavecino-calculapp.netlify.app/",
@@ -57,7 +58,7 @@ const STATUS_LABEL = {
   live: "Demo disponible",
   "in-progress": "En curso",
   "coming-soon": "Próximamente",
-  "repo-only": "Código en repo",
+  "repo-only": "Código en repositorio",
 };
 
 const ProjectCard = ({ project }) => (
