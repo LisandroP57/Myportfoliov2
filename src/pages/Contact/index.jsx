@@ -16,7 +16,6 @@ const Contact = () => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      // Si el navegador bloquea el acceso al portapapeles, no rompemos la página.
       setCopied(false);
     }
   };

@@ -19,12 +19,12 @@ const PROJECTS = [
     repo: "https://github.com/LisandroP57/React-dashboard",
   },
   {
-    title: "Weather App",
+    title: "FinanzApp",
     description:
-      "Aplicación del clima construida en React que consume una API externa y permite filtrar el pronóstico por ciudad.",
+      "Aplicación web para registrar ingresos y gastos y ver cómo van las cuentas del mes, con gastos por categoría y evolución a lo largo del mes",
     stack: ["React", "API REST"],
-    status: "coming-soon",
-    repo: "https://github.com/LisandroP57/Weather-App",
+    status: "live",
+    repo: "https://finanzapplp.netlify.app",
   },
   {
     title: "Plataforma de APIs E-commerce",
