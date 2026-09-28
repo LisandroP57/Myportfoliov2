@@ -3,14 +3,6 @@ import "./projects.css";
 
 const PROJECTS = [
   {
-    title: "Cuídate! E-commerce FullStack",
-    description:
-      "Primera app full-stack: registro, login, carrito, productos, categorías, búsqueda y panel de administración, con Sequelize/SQL y una API propia sobre Node.js. Realizada en Digital House - Fundacion Formar.",
-    stack: ["JavaScript", "Node.js", "Sequelize", "SQL"],
-    status: "in-progress",
-    repo: "https://github.com/LisandroP57/c19-Grupo-3-Cuidate",
-  },
-  {
     title: "React Dashboard E-commerce",
     description:
       "Panel de administración con gráficos estadísticos, listado de productos y usuarios, login/registro con Formik y una API propia orientada a e-commerce.",
@@ -27,6 +19,15 @@ const PROJECTS = [
     demo: "https://finanzapplp.netlify.app",
     repo: "https://github.com/LisandroP57/FinanzApp",
   },
+    {
+    title: "Tablero de tareas",
+    description:
+      "proyecto estilo kanban con columnas, tarjetas arrastrables, prioridades, asignación de tareas, fecha límite y comentarios. Cada equipo tiene sus propios tableros, pensado como herramienta interna.",
+    stack: ["React + Vite", "Axios", "Node.js", "Express", "bcrypt", "MySQL"],
+    status: "in-progress",
+    //demo: "https://TablerodeTareaslp.netlify.app",
+    repo: "https://github.com/LisandroP57/taskboard",
+  },
   {
     title: "Plataforma de APIs E-commerce",
     description:
@@ -36,6 +37,22 @@ const PROJECTS = [
     repo: "https://github.com/LisandroP57/My-Ecommerce-APIs",
   },
   {
+    title: "Proyectos de Digital House",
+    description:
+      "Trabajos grupales e individuales de desarrollo web aprobados durante la formación en Digital House.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    status: "repo-only",
+    repo: "https://github.com/LisandroP57/Digital-House-2022-2023",
+  },
+  {
+    title: "Cuídate! E-commerce FullStack",
+    description:
+      "Primera app full-stack: registro, login, carrito, productos, categorías, búsqueda y panel de administración, con Sequelize/SQL y una API propia sobre Node.js. Realizada en Digital House - Fundacion Formar.",
+    stack: ["JavaScript", "Node.js", "Sequelize", "SQL"],
+    status: "in-progress",
+    repo: "https://github.com/LisandroP57/c19-Grupo-3-Cuidate",
+  },
+  {
     title: "CalculApp",
     description:
       "Calculadora basica interactiva construida con React, con separación clara de componentes y hooks modernos.",
@@ -43,14 +60,6 @@ const PROJECTS = [
     status: "live",
     demo: "https://palavecino-calculapp.netlify.app/",
     repo: "https://github.com/LisandroP57/My-Ecommerce-APIs",
-  },
-  {
-    title: "Proyectos de Digital House",
-    description:
-      "Trabajos grupales e individuales de desarrollo web aprobados durante la formación en Digital House.",
-    stack: ["HTML5", "CSS3", "JavaScript"],
-    status: "repo-only",
-    repo: "https://github.com/LisandroP57/Digital-House-2022-2023",
   },
 ];
 
