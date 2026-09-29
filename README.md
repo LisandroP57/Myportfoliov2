@@ -15,13 +15,12 @@ El proyecto lo organicé  en componentes de React para mantener el código orden
 
 ## Cómo correrlo de forma local
 1_ Clonar repositorio:
-git clone https://github.com/LisandroP57/Myportfoliov2.git
+git clone https://github.com/LisandroP57/Myportfoliov2.git <br>
 2_ Instalar las dependencias dentro de la carpeta raíz:
-npm install
+npm install <br>
 3_ Levantar el proyecto:
 npm run dev
 
 ## Contacto
-• LinkedIn: https://www.linkedin.com/in/lpalavecinodvp/
-• GitHub: https://github.com/LisandroP57
+• LinkedIn: https://www.linkedin.com/in/lpalavecinodvp/ <br>• GitHub: https://github.com/LisandroP57
 
