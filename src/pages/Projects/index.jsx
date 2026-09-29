@@ -3,12 +3,13 @@ import "./projects.css";
 
 const PROJECTS = [
   {
-    title: "React Dashboard E-commerce",
+    title: "Dashboard Admin (E-commerce)",
     description:
-      "Panel de administración con gráficos estadísticos, listado de productos y usuarios, login/registro con Formik y una API propia orientada a e-commerce.",
-    stack: ["React", "Formik", "REST API"],
-    status: "in-progress",
-    repo: "https://github.com/LisandroP57/React-dashboard",
+      "Este es un dashboard para administración de un ecommerce, la primer version fue durante mis estudios en Digital House y utilizaba las APIS Propias, dando solo estadisticas de mi pagina, aca se agregaron: indicadores de ventas, gráficos, gestión de productos, pedidos y clientes. Es 100% funcional en el navegador, no necesita backend ni base de datos.",
+    stack: ["React 18", "Formik", "Vitest", "Chart.js"],
+    status: "live",
+    demo: "https://dashboardAdminlp.netlify.app",
+    repo: "https://github.com/LisandroP57/DashboardAdmin",
   },
   {
     title: "FinanzApp",
@@ -23,7 +24,7 @@ const PROJECTS = [
     title: "Tablero de tareas",
     description:
       "proyecto estilo kanban con columnas, tarjetas arrastrables, prioridades, asignación de tareas, fecha límite y comentarios. Cada equipo tiene sus propios tableros, pensado como herramienta interna.",
-    stack: ["React + Vite", "Axios", "Node.js", "Express", "bcrypt", "MySQL"],
+    stack: ["React + Vite", "Axios", "Node.js", "Express", "MySQL"],
     status: "in-progress",
     //demo: "https://TablerodeTareaslp.netlify.app",
     repo: "https://github.com/LisandroP57/taskboard",
@@ -48,7 +49,7 @@ const PROJECTS = [
     title: "Cuídate! E-commerce FullStack",
     description:
       "Primera app full-stack: registro, login, carrito, productos, categorías, búsqueda y panel de administración, con Sequelize/SQL y una API propia sobre Node.js. Realizada en Digital House - Fundacion Formar.",
-    stack: ["JavaScript", "Node.js", "Sequelize", "SQL"],
+    stack: ["JavaScript", "Node.js", "Sequelize", "SQL","bcrypt"],
     status: "in-progress",
     repo: "https://github.com/LisandroP57/c19-Grupo-3-Cuidate",
   },
@@ -110,11 +111,11 @@ const Projects = () => {
   return (
     <section className="projects-section">
       <div className="container">
-        <span className="section-eyebrow">Portfolio</span>
+        <span className="section-eyebrow">Mi portfolio</span>
         <h1 className="section-title">Proyectos</h1>
         <p className="section-subtitle">
-          Una selección de proyectos personales y de formación en los que trabajé,
-          individualmente y en equipo.
+          Una selección de proyectos personales y de formación en los que trabajé, tanto
+          individualmente como en equipo.
         </p>
 
         <div className="projects-grid">
