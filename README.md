@@ -11,16 +11,4 @@ Podés ver el sitio desplegado acá: https://lisandrodev.netlify.app/
 - Desplegado en Netlify
 
 ## Proyectos y Estructura
-El proyecto lo organicé  en componentes de React para mantener el código ordenado y fácil de mantener. La información de los proyectos y habilidades está separada en archivos de datos para poder actualizarla rápido y, cuando necesite ubicar bien los componentes.
-
-## Cómo correrlo de forma local
-1_ Clonar repositorio:
-git clone https://github.com/LisandroP57/Myportfoliov2.git <br>
-2_ Instalar las dependencias dentro de la carpeta raíz:
-npm install <br>
-3_ Levantar el proyecto:
-npm run dev
-
-## Contacto
-• LinkedIn: https://www.linkedin.com/in/lpalavecinodvp/ <br>• GitHub: https://github.com/LisandroP57
-
+El proyecto lo organicé  en componentes de React para mantener el código ordenado y fácil de mantener. La información de los proyectos y habilidades está separada en archivos de datos para poder actualizarla rápido y cuando se necesite ubicar bien los componentes.
